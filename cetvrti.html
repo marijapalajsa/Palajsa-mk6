@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular - klc</title>
+    <link rel="stylesheet" href="cetvrti.css">
+</head>
+<body>
+
+    <section id="link">
+       
+        <a href="index.html">VRATI ME NA POČETNU</a>
+            
+        </section>
+
+    <form action="mailto:marija.palajsa@gmail.com" method="post" enctype="text/plain" accept-charset="UTF-8" autocomplete="on">
+        
+    <fieldset>
+            <legend><b>Obavezni podaci:</b></legend>
+        Ime: <input type="text" name="Ime" placeholder="Upišite Vaše ime..." autofocus required autocomplete="on"><br>
+        Prezime: <input type="text" name="Prezime" placeholder="Upišite Vaše prezime..." required autocomplete="on"><br>
+        E-mail: <input type="email" name="E-mail" required autocomplete="on"><br>
+        Password: <input type="password" name="Pass" maxlength="15" placeholder="Preporučujemo kombinaciju slova i brojeva..." required autocomplete="on">
+
+    </fieldset>
+
+
+        <label for="rodjendan">Datum rođenja?</label>
+        <input type="date" id="rodjendan" name="Rodendan">
+
+        <label for="pin">PIN:</label>
+        <input type="password" id="pin" name="PIN" maxlength="4" required>
+
+        <label for="web">Web adresa:</label>
+        <input type="url" id="web" name="Web stranica" placeholder="https://www.karlovac.hr/">
+
+        <label for="mobilni">Mobilni telefon:</label>
+        <input type="number" id="mobilni" name="Mob" required>
+
+        
+    <fieldset>
+        <legend><b>Spol:</b></legend>
+        <input type="radio" name="spol" value="musko" >Muško<br>
+        <input type="radio" name="spol" value="zensko">Žensko<br>
+        <input type="radio" name="spol" value="ne zelim reci">Ne želim reći
+
+    </fieldset>
+
+    <label for="najprivlačniji grad">Izaberite najprivlačniju lokaciju grada</label>
+    <select name="najprivlacnija lokacija">
+        <option>Stari Grad Dubovac</option>
+        <option>Aquatika - slatkovodni akvarij</option>
+        <option>Muzej Domovinskog rata</option>
+    </select>
+
+    <fieldset>
+        <legend><b>Definitivno moram posjetiti:</b></legend>
+        <input type="checkbox" name="moram posjetiti" value="stari grad">Stari Grad Dubovac<br>
+        <input type="checkbox" name="moram posjetiti" value="promenada">Promenada<br>
+        <input type="checkbox" name="moram posjetiti" value="zvijezda">Zvijezda<br>
+        <input type="checkbox" name="moram posjetiti" value="aquatika">Aquatika<br>
+        <input type="checkbox" name="moram posjetiti" value="muzej">Muzej Domovinskog rata
+       
+     </fieldset>
+
+    <label for="boja">Odaberite boju koja Vas asocira na grad Karlovac</label>
+    <input type="color" id="boja" name="boja">
+
+    <label for="poruka">Poruka:</label>
+    <input type="text" id="poruka" name="poruka">
+
+    <input type="reset" value="Poništi">
+    <input type="submit" value="Prihvati">
+
+
+ </form>
+ <br>
+ <br>
+
+ <form action="mailto:marija.palajsa@gmail.com" method="post" enctype="text/plain" accept-charset="UTF-8" autocomplete="on">
+    <h2>Ukoliko ste posjetili grad, zanima nas Vaše mišljenje:</h2>
+    
+    <label for="datum">Najbolji dio godine za posjetu grada Karlovca?</label>
+        <input type="date" id="datum" name="dio godine za posjetu">
+
+    <label for="time"> Najbolji dio dana za obilazak grada?</label>
+        <input type="time" id="time" name="vrijeme">
+
+
+        
+    <label for="browser">Preporučite dan u tjednu za dolazak u grad:</label>
+    <input list="browsers" name="dan koji preporucujem" id="browser">
+    <datalist id="browsers">
+        <option value="PONEDJELJAK">
+        <option value="UTORAK">
+        <option value="SRIJEDA">
+        <option value="ČETVRTAK">
+        <option value="PETAK">
+        <option value="SUBOTA">
+        <option value="NEDJELJA">
+            
+    </datalist>
+
+    
+    
+    <textarea rows="10" cols="92" id="Komentar" name="Komentar">
+        Polje za komentar...
+       
+    </textarea>
+
+    <input type="reset" value="Poništi">
+    <input type="submit" value="Prihvati">
+
+    
+   
+
+
+
+ </form>
+    
+</body>
+</html>

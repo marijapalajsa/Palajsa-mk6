@@ -1,0 +1,286 @@
+body{
+    background: linear-gradient(rgb(86, 192, 178), rgb(170, 101, 111),rgba(24, 95, 119, 0.84));
+}
+body :not(h1){
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px; 
+}
+
+header{
+    background-color: #23b05e;
+}
+h1 {
+    font-family: verdana;
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    color: azure;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 2px black;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+#tablica1 table {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    
+}
+#tablica1 table {
+    border-collapse: collapse;
+}
+#tablica1 th {
+    font-size: 50px;
+    text-shadow: 5px 5px 3px black;
+    font-weight: bold;
+    background-color: #cb9d64d2;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+
+.traka1{
+    background-color: rgb(153, 227, 174);
+}
+.traka2{
+    background-color:#e2cdb4d2;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+
+#tablica2 table {
+    border-collapse: separate;
+}
+#tablica2 th {
+    font-size: 50px;
+    text-shadow: 5px 5px 3px azure;
+    font-weight: bold;
+    background-color: #cb9d64d2;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    height: 30px;
+    border: 2px solid black;
+}
+#tablica2 table {
+    width: 800px;
+    height: 400px;
+    text-align: left;
+}
+   
+#tablica2 td {
+    border: 2px solid black;
+}
+
+.traka3{
+    background-color:#cb9d64d2;
+}
+.traka4{
+    background-color: #caca7e;
+}
+.traka5{
+    background-color: #eb9d59;
+}
+.traka6{
+    background-color: #9e5757;
+}
+.traka7{
+    background-color: whitesmoke;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+#tablica3 table {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+}
+#tablica3 table {
+    border-collapse: collapse;
+}
+#tablica3 th {
+    font-size: 50px;
+    text-shadow: 5px 5px 3px black;
+    font-weight: bold;
+    background-color: #cb9d64d2;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+#tablica3 td {
+    border-style: solid dotted;
+    border-color: #cb9d64d2;
+}
+
+#tablica3 tr:nth-child(2n) {
+    background-color: rgb(153, 227, 174);
+}
+hr{
+    border-top: 3px dashed black;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+
+#rijeke {
+    margin: 70px 0;
+    width: 500px;
+    height: 300px;
+}
+
+#rijeke table{
+        width: 200px;
+        height: 200px;
+        float: left;
+        border: 7px solid black;
+   
+
+}
+
+#kupa {
+    background-color: rgb(12, 30, 133);
+    border-radius: 100px 0px 100px 100px;
+    margin-left: 250px;
+    
+}
+#korana {
+    background-color: rgb(49, 56, 182);
+    border-radius: 100px 0px 100px 100px;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+
+#mrežnica {
+    background-color: rgb(75, 75, 234);
+    border-radius: 100px 0px 100px 100px;
+    margin-left: 750px;
+    margin-top: -200px;
+}
+#dobra {
+    background-color: rgb(115, 118, 214);
+    border-radius: 100px 0px 100px 100px;
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+
+.ri {
+    border: 10px solid rgba(9, 44, 174, 0.778);
+    border-radius: 5px;
+}
+
+#rijeke td{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;  
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+#rijeke h1{
+    text-align: center;
+    font-family: verdana;
+    color: black;
+    padding: 12px;
+    background-color: #cb9d64d2;
+    text-shadow: 3px 3px 1px azure;
+    width: 1480px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgb(211, 154, 201);
+}
+a:hover{
+    color: #5db560d2;
+}
+
+
+#linkovi h2{
+    margin-top: 80px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 10px;
+    background-color:  #cb9d64d2;
+}
+
+#linkovi p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+    background-color: rgb(193, 195, 239);
+}
+
+/* --------------------------------------------------------------------------- */
+
+#linkovi2 {
+    margin: 30px 0;
+    clear: both;
+}
+#linkovi2 ul {
+    list-style: none;
+    padding: 10px;
+}
+#linkovi2 li {
+    width: 200px;
+    padding-left: 30px;
+    background-color:#23b05e;
+    border-bottom: 3px solid white;
+}
+#linkovi2 li a {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#linkovi2 li:first-child a:hover {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 2px #cb9d64d2;
+}
+#linkovi2 li:nth-child(2) a:hover {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #cb9d64d2;
+}
+#linkovi2 li:nth-child(3) a:hover {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 2px #cb9d64d2;
+  
+}
+#linkovi2 li:nth-child(4) a:hover {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #cb9d64d2;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+#tablica1 .tab1 {
+    margin-left: 350px;
+}
+#tablica2 .tab2 {
+    margin-left: 350px;
+}
+#tablica3 .tab3 {
+    margin-left: 350px;
+}

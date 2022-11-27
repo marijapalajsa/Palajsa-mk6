@@ -1,0 +1,216 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0;
+    background-image: url(slike/poz.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+header{
+    background-color: #6784d6e3;
+}
+h1 {
+    font-family: verdana;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    color: azure;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 3px black;
+}
+
+main {
+    padding: 100px;
+    background-image: url(slike/televizija1.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 1003px;
+    height: 650px;
+}
+main iframe {
+    display: block;
+    margin: 16px auto 0;
+    width: 975px;
+    height: 540px;
+}
+aside {
+    position: absolute;
+    left: 15px;
+    padding: 100px 0 0;
+    width:200px;
+}
+
+aside a, aside img {
+    display: block;
+    width: 100%;
+}
+aside a {
+    margin-bottom: 19px;
+    border: 3px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 6px rgba(141, 41, 132, 0.852);
+    height: 100px;
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#rijeke iframe{
+    position:absolute;
+    width: 650px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 8px solid black;
+    box-shadow: 25px 25px 25px #6785d6;
+    border-radius: 20px;
+}
+#okv1 {
+    top: 1000px;
+    left: 50px;
+}
+#okv2 {
+    top: 1000px;
+    right: 50px;
+}
+
+#rijeke ul.klcrijeke li  {
+    display: inline-block;
+    background-color: #cb9d64;
+    border-radius: 35px;
+    margin-left: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 30px;
+}
+#rijeke ul.klcrijeke a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: azure;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#mape {
+    margin-top: 800px;
+    margin-left: 50px;
+}
+
+#mape iframe {
+	position:absolute;
+	left:500px;
+	width:650px;
+	height:420px;
+	border:2px solid black;}
+#p1 {
+	top:1785px;
+    margin-left: 250px;
+}
+#p2 {
+	top:2205px;
+    margin-left: 250px;
+}
+#p3 {
+	top:2625px;
+    margin-left: 250px;
+}
+#mape h2{
+    margin-top: -70px;
+    width: 1328px;
+    text-align: center;
+    font-family: verdana;
+    color: azure;
+    padding: 12px;
+    background-color: #cb9d64d2;
+    text-shadow: 3px 3px 1px gray;
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+#lista {
+    margin: 30px 0 0px;
+    clear: both;
+}
+#lista ul {
+    list-style: none;
+    padding: 10px;
+}
+#lista li {
+    width: 300px;
+    padding-left: 30px;
+    background-color: #cb9d64d2 ;
+    border-bottom: 3px solid white;
+    margin-left: 50px;
+}
+#lista li a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#lista li:first-child a:hover {
+   color: #3b7730;
+   text-decoration: underline;
+}
+#lista li:nth-child(2) a:hover {
+    background-color: #3b7730; 
+}
+#lista li:nth-child(3) a:hover {
+    color: #3b7730;
+    text-decoration: underline;
+}
+#lista li:nth-child(4) a:hover {
+    background-color: #3b7730;  
+}
+
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+    #rijeke ul.klcrijeke li {
+    position: relative;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 15px;
+    }
+
+    #rijeke ul.klcrijeke a{
+        font-size: 17px;
+    }
+
+    #rijeke iframe {
+        margin-left: 10px;
+        position: unset;
+        width: 440px;
+        height: 258px;
+        border: 2px;
+        box-shadow: 2px 2px 2px #6785d6;
+        border-radius: 8px;
+    }
+
+    #mape h2 {
+        margin-left: 0px;
+        width: 385px;
+        padding: 8px;
+        margin-top: -700px;
+    }
+    #mape img {
+        width: 400px;
+        height: 258px;
+    }
+    #mape iframe {
+        position: unset;
+        width: 400px;
+        height: 258px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Marija Palajsa - moj html dokument</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@1,700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="stil.css">
+
+    <style>
+        p {
+            font-family: Arial;
+        }
+        h1 {
+            font-family: verdana;
+            padding: 50px;
+            font-size: 60px;
+            text-align: center;
+            margin-top: 50px;
+            color: azure;
+            letter-spacing: 2px;
+            text-shadow: 5px 5px 3px black;
+        }
+        p {
+            text-align: justify;
+        }
+        .odlomak {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        #prvi, #drugi {
+            color: #3b7730;
+        }
+        #treci {
+            font-style: italic;
+        }
+        #cetiri {
+            padding: 20px;
+            background-color: rgb(231, 195, 123)
+
+        }
+        header{
+          
+            background-color: #23b05e;
+        }
+        main {
+            padding: 20px;
+            background-color: #cb9d64d2;
+        }
+
+        
+    </style>
+</head>
+<body>
+   <header>
+    <h1>GRAD KARLOVAC</h1>
+    </header>
+    <main>
+   <h2 class="odlomak">O gradu</h2>
+   <p id="prvi" class="odlomak">Smješten u središnjoj Hrvatskoj na dodiru nizinske i gorske Hrvatske te Pokupja i Korduna, Karlovac je uokviren rijekama Kupom,
+     Koranom, Dobrom i Mrežnicom. S obzirom na to da se nalazi u najužem dijelu Hrvatske, svega 50-ak kilometara udaljen od Slovenije 
+     i Bosne i Hercegovine, Karlovac ima važno prometno i gospodarsko značenje.
+    </p>
+    <p id="drugi" class="odlomak">Grad Karlovac jedan je od rijetkih gradova koji zna točan datum svog nastanka, <mark>13. srpnja 1579. godine</mark>, a dobio je ime po svom 
+        osnivaču nadvojvodi Karlu Habsburškom. To je ujedno početak gradnje karlovačke krajišne vojne utvrde zbog protuturske obrane. 
+        Svake godine 13. srpnja slavi se Dan grada Karlovca koji je upriličen rođendanskim balom na Trgu bana Josipa Jelačića te 
+        svečanom sjednicom Gradskog vijeća i dodjelom javnih priznanja. Zaštitnik grada je sveti Josip čiji se blagdan slavi 19. ožujka,
+        a središnja svečanost održava se u crkvi sv. Josipa na Dubovcu – nacionalnom svetištu.
+    </p>
+    </main>
+    <h2 class="odlomak" id="zanimljivost">Zanimljivost</h2>
+    <p id="cetiri" class="odlomak">Prije 25 godina <strong>Michael Jackson</strong> izdao je pjesmu „Earth Song“. Bila je to humana poruka svijetu, poruka protiv ratova, sukoba, 
+        patnje, gladi, uništenja okoliša. Scene za spot snimane su na četiri lokacije, tj. kontinenta od kojih svaki simbolizira 
+        jednu temu. Među iskrčenim amazonskim šumama i ilegalnim afričkim lovcima na životinje našao se i <strong>Karlovac kao simbol 
+            ratnog stradanja</strong>.
+        </p>
+        <h2 class="odlomak">Top tri lokacije za posjetiti</h2>
+	<ol id="treci" class="odlomak">
+		<li>Stari grad Dubovac</li>
+		<li>Aquatika - slatkovodni akvarij</li>
+		<li>Muzej Domovinskog rata</li>
+	</ol>
+
+
+    <section id="zadatak1">
+        <h2 class="rijeke">Karlovačke rijeke</h2>
+        <ol class="prva">
+            <li>Dobra</li>
+            <li>Korana</li>
+            <li>Kupa</li>
+            <li>Mrežnica</li>
+        </ol>
+
+    <hr class="dva">
+
+    <ol class="druga">
+        <li>
+            Događanja <em>ljeti</em>
+            <ul>
+                <li>Zvijezdano ljeto</li>
+                <li>Ivanjski krijes</li>
+                <li>Dani piva Karlovac</li>
+            </ul>
+        </li>
+        <li>
+            Događanja <em>zimi</em>
+            <ul>
+                <li>Advent Karlovac</li>
+            </ul>
+        </li>
+    </ol>
+
+ <hr class="jedan">
+
+
+<section id="zadatak2">
+
+        <h2 class="odlomak">POZNATE OSOBE IZ KARLOVCA</h2>
+        <ul>
+            <li class="pik">
+                Pjesnici i književnici
+                <ul>
+                    <li>Dragojla Jarnević</li>
+                    <li>Slavko Mihalič</li>
+                    <li>Vladimir Mažuranić</li>
+                </ul>
+            </li>
+            <li class="sp">
+                Sportaši
+                <ul>
+                    <li>Dejan Lovren</li>
+                    <li>Mario Jutt</li>
+                </ul>
+            </li>
+            <li class="po">
+                Političari
+                <ul>
+                    <li>Frano Krsto Frankopan</li>
+                    <li>Većeslav Holjevac</li>
+                    <li>Ivan Vilibor Sinčić</li>
+                </ul>
+            </li> 
+            <li class="umj">
+                Umjetnici
+                <ul>
+                    <li>Vjekoslav Karas</li>
+                </ul>
+            </li>
+            <li class="jž">
+                Osobe iz javnog života
+                <ul>
+                    <li>Zrinka Cvitešić</li>
+                    <li>Davor Gobac</li>
+                    <li>Daniela Trbović</li>
+                </ul>
+            </li>
+        </ul>
+    
+    </section>
+<hr class="jedan">
+    <section id="lista">
+        <ul>
+            <li><a href="treci.html">INFORMACIJE O GRADU</a></li>
+            <li><a href="#zanimljivost">ZANIMLJIVOST</a></li>
+            <li><a href="mailto:mpalajsa@grf.hr">pošalji mail na adresu mpalajsa@grf.hr</a></li>
+            <li><a href="cetvrti.html">Formular</a></li>
+            <li><a href="peti.html">Grad susreta</a></li>
+            <li><a href="sesti.html">Galerija</a></li>
+
+        </ul>
+    </section>
+
+
+
+    <hr>
+    <footer class="odlomak">Stranica grada <em>Karlovca</em></footer>
+</body>
+</html>

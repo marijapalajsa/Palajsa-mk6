@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sesti.css">
+    <title>Marija Palajsa - sesti html dokument</title>
+</head>
+<body>
+    <header>
+        <h1>GALERIJA</h1>
+        </header>
+
+    <main><iframe name="screen" embed src="slike/svijecagif.gif" frameborder="0" seamless></iframe></main>
+    <aside>
+    <a href="slike/StariGrad.jpg" target="screen"><img src="slike/StariGrad.jpg" alt=""></a>
+    <a href="slike/trg.jpg" target="screen"><img src="slike/trg.jpg" alt=""></a>
+    <a href="slike/zvijezda.jpg" target="screen"><img src="slike/zvijezda.jpg" alt=""></a>
+    <a href="slike/zdenac.jpg" target="screen"><img src="slike/zdenac.jpg" alt=""></a>
+    <a href="slike/grb.jpg" target="screen"><img src="slike/grb.jpg" alt=""></a>
+    <a href="slike/klcvid.mp4" target="screen"><video src="slike/klcvid.mp4" alt=""></a>
+
+</aside>
+<br>
+
+<section id="rijeke">
+<ul class="klcrijeke">
+    <li><a href="slike/korana.jpg" target="okv1">KORANA</a></li>
+    <li><a href="slike/dobra.jpg" target="okv2">DOBRA</a></li>
+    <li><a href="slike/kupa.jpg" target="okv1">KUPA</a></li>
+    <li><a href="slike/mrežnica.jpg" target="okv2">MREŽNICA</a></li>
+</ul>
+<iframe name="okv2" embed src="slike/klc2.png" id="okv2"></iframe>
+<iframe name="okv1" embed src="slike/klc1.jpg" id="okv1"></iframe>
+</section>
+
+
+<section id="mape">
+    <h2>OTKRIJ UNUTRAŠNJOST</h2>
+    <map name="starigrad">
+        <area shape="circle" coords="80, 300, 30" href="slike/m1.jpg" target="p1">
+        <area shape="circle" coords="300, 250, 30" href="slike/m1.jpg" target="p1">
+    </map>
+
+    <map name="aquatika">
+        <area shape="circle" coords="250, 250, 20" href="slike/m2.jpg" target="p2">
+    </map>
+
+    <map name="muzej">
+        <area shape="circle" coords="310, 190, 30" href="slike/m3.jpg" target="p3">
+    </map>
+
+    <img src="slike/dubovac.jpg" usemap="#starigrad"><br>
+    <img src="slike/aquaklc.jpg" usemap="#aquatika"><br>
+    <img src="slike/turanjmuzej.jpg" usemap="#muzej"><br>
+
+    <iframe name="p1" id="p1"></iframe>
+    <iframe name="p2" id="p2"></iframe>
+    <iframe name="p3" id="p3"></iframe>
+    
+</section>
+
+<section id="lista">
+    <ul>
+        <li><a href="index.html">VRATI ME NA POČETNU</a></li>
+        <li><a href="treci.html">INFORMACIJE O GRADU</a></li>
+        <li><a href="cetvrti.html">Formular</a></li>
+        <li><a href="peti.html">Grad susreta</a></li>
+       
+
+    </ul>
+</section>
+
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    background-image: url("neutral.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    width: 700px;
+    padding: 50px;
+    background-color: #5aa183;
+    border: 8px double #503c1d;
+    border-radius: 15px;
+}
+
+input, fieldset, select{
+    font-size: 15px;
+    width: 97%;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(197, 230, 218, 0.807);
+    border: 3px solid #934d1f;
+    box-sizing: border-box;
+}
+
+input:focus  {
+    background-color: #7dc3c8;;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+fieldset input {
+    width: 50%;
+}
+
+fieldset label {
+    display: inline-block;
+    width: 80%;
+}
+
+input[type="color"] {
+    height: 60px;
+    padding: 3px;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    height: 50px;
+    padding: 3px;
+    margin-left: 150px;
+    box-shadow: 3px 3px 3px #503c1d;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 3px 6px 3px #934d1f;
+   
+}
+
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#link a:hover {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 2px #5aa183;
+}
+
+#link  a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+
+
+
